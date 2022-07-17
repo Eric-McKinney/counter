@@ -1,0 +1,1 @@
+int count_char(int fd);
