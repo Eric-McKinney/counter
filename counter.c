@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include "counter.h"
-#define BUFFER_SIZE 1
+#define BUFFER_SIZE 4096
 
 int count_char(int fd){
     char buffer[BUFFER_SIZE];
